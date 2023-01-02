@@ -1,21 +1,3 @@
-name: "FFT"
-description:
-  "This directory contains the third-party one- and two-dimensional "
-  "fast Fourier transform and related sinusoidal transform code "
-  "written by Takuya Ooura."
-
-third_party {
-  url {
-    type: HOMEPAGE
-    value: "http://www.kurims.kyoto-u.ac.jp/~ooura/fft.html"
-  }
-  url {
-    type: ARCHIVE
-    value: "http://www.kurims.kyoto-u.ac.jp/~ooura/fft2d.tgz"
-  }
-  version: "2006/12/28"
-  last_upgrade_date { year: 2021 month: 2 day: 8 }
-
-  # explicitly approved by opensource-licensing@ on Feb. 12 2021.
-  license_type: BY_EXCEPTION_ONLY
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:dda8effb68cab1c357b0d4c62e123701ed91fd53fd7d7fadce3b1851fea1bb89
+size 567
